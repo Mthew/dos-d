@@ -1,0 +1,159 @@
+body{
+	background-image:url(../activos/fondo.JPG);
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin: 0px;
+	background-attachment:fixed;
+}
+header{
+	background-color:#000;
+	height: 60px;
+	width: 100%;
+	padding-top: 15px;
+	padding-left: 30px;
+	position:top;
+	position:fixed;
+	z-index:30;
+	
+}
+section{
+	padding-top:60px;
+	
+}
+#logo{
+	width:40%;
+	float:left
+}
+#botones{
+	width:40%;
+	float:right;
+	
+}
+	@media all and (max-width: 640px) {
+  
+   #main {
+    -webkit-flex-flow: column;
+            flex-flow: column;
+   }
+
+   #main > article, #main > nav, #main > aside {
+	   
+    -webkit-order: auto;
+            order: 0;
+   }
+  
+   #main > nav, #main > {
+    min-height: 632px;
+    max-height: 632px;
+   }
+    #main > nav, #main >  header, footer {
+    min-height: 50px;
+    max-height: 50px;
+   }
+  }
+    #main {
+   min-height:auto;
+   margin: 0px;
+   padding: 0px;
+   display: -webkit-flex;
+   -webkit-flex-flow: row;
+   }
+ 
+  #main > article {
+   margin: 4px;
+   padding: 5px;
+   border: 3px solid ;
+   border-radius: 7pt;
+   background: #EE5772;
+   opacity: 0.97;
+   -webkit-flex:auto;
+   -webkit-order: 2;
+   background-image:url(../activos/fotos_servicios%20copia.png);
+   height:500px;
+   background-repeat:no-repeat;
+   background-position:center;
+   }
+  
+  #main > nav {
+   margin: 4px;
+   padding: 5px;
+   border: 1px solid #666;
+   border-radius: 7pt;
+   background: #7f9db9;
+   -webkit-flex: 20%;
+   -webkit-order: 1;
+   }
+  
+  #main > aside {
+   margin: 4px;
+   padding: 5px;
+   border: 1px solid #;
+   border-radius: 7pt;
+   background: #515151;
+   -webkit-flex:  50%;
+   -webkit-order: 3;
+   opacity: 0.97;
+   
+   }
+ 
+   footer {
+   display: block;
+   margin: 4px;
+   padding: 5px;
+   height:auto;
+   border: 1px solid #999999;
+   border-radius: 7pt;
+   background: #000;
+   color:#fff;
+   text-align:center;
+   font-size:12px;
+   }
+.fichas{
+	background-color:#fff;
+	height:auto;
+	margin-bottom:10px;
+	-webkit-border-radius:8px;
+	text-align:justify;
+	color:#333;
+	
+}
+.fichas p {
+	padding-right:15px;
+	padding-left:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.titulos{
+	background-color:#333;
+	height:10%;
+	-webkit-border-radius:8px;
+	text-align:center;
+	color:#FFF;
+	height:45px;
+	background-image:url(../activos/12.png);
+	background-repeat:no-repeat;
+	background-position-x:15px;
+	padding-top:5px;
+	font-weight:bold;
+	font-size:25px;
+	margin-bottom:10px;
+}
+
+ 
+  @media all and (max-width: 640px) {
+  
+   #main {
+    -webkit-flex-flow: column;
+            flex-flow: column;
+   }
+
+   #main > article, #main > nav, #main > aside {
+	   
+    -webkit-order: 0;
+            order: 0;
+   }
+  
+   #main > nav, #main > aside, header, footer {
+    min-height:120px;
+    max-height:auto;
+   }
+  }
